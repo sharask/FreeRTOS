@@ -9,6 +9,6 @@ Problem: if we try to send two messages without delay between them, second messa
 It this project two tasks write messages to freertos queue.<br>
 Dedicated task *StartUSBPrintTask()* takes these messages from queue and outputs over USB.<br>
 After the message is successfully transmitted through the USB, callback function *CDC_TransmitCplt_FS()* is fired.
-In this callback function we can use "Direct task notification" to inform about empty USB buffer and permission to send next message.
+In this callback function we can use "Direct task notification" to inform about empty USB buffer and give permission to send next message.
 
 
