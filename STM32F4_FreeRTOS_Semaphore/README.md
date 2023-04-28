@@ -1,4 +1,4 @@
-# FreeRTOS Tasks demo project
+# FreeRTOS Semaphore demo project
 
 STM32F407-Disc1 kit<br>
 STM32CubeIDE 1.12.0<br>
